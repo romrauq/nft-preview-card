@@ -12,6 +12,7 @@ body {
 	background-color: hsl(217, 54%, 11%);
 }
 .main-container {
+	margin-top: auto;
 	align-self: center;
 	padding: 20px;
 	width: 280px;
@@ -23,28 +24,41 @@ body {
 	border-radius: 5px;
 }
 .heading {
+	margin: 20px 0 20px 0;
 	color: hsl(0, 0%, 100%);
 }
 .description-text {
+	color: hsl(215, 51%, 70%);
+	margin: 0 0 20px 0;
 }
 .row-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 20px 0;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+.price-container {
+	display: flex;
+	gap: 5px;
 }
 .eth-icon {
 }
 .eth-price {
-}
-.price-container {
-	display: flex;
+	color: hsl(178, 100%, 50%);
 }
 .countdown-container {
 	display: flex;
+	gap: 5px;
 }
 .clock-icon {
 }
 .days-left {
+	color: hsl(215, 51%, 70%);
 }
 .profile-container {
 	display: flex;
+	gap: 10px;
 }
 .profile-image {
 	width: 20px;
@@ -52,12 +66,13 @@ body {
 	border-radius: 50%;
 }
 .profile-text {
+	color: hsl(215, 51%, 70%);
 }
 .name-span {
 	color: hsl(0, 0%, 100%);
 }
 .attribution {
-	/* justify-self: end; */
+	margin-top: auto;
 	font-size: 11px;
 	text-align: center;
 }
