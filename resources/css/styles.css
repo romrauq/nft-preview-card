@@ -1,0 +1,66 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: hsl(217, 54%, 11%);
+}
+.main-container {
+	align-self: center;
+	padding: 20px;
+	width: 280px;
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 10px;
+}
+.nft-image {
+	width: 100%;
+	border-radius: 5px;
+}
+.heading {
+	color: hsl(0, 0%, 100%);
+}
+.description-text {
+}
+.row-container {
+}
+.eth-icon {
+}
+.eth-price {
+}
+.price-container {
+	display: flex;
+}
+.countdown-container {
+	display: flex;
+}
+.clock-icon {
+}
+.days-left {
+}
+.profile-container {
+	display: flex;
+}
+.profile-image {
+	width: 20px;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+.profile-text {
+}
+.name-span {
+	color: hsl(0, 0%, 100%);
+}
+.attribution {
+	/* justify-self: end; */
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
