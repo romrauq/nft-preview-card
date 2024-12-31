@@ -105,6 +105,13 @@ body {
 	color: hsl(178, 100%, 50%);
 	cursor: pointer;
 }
+@media (max-width: 475px) {
+	.main-container {
+		width: 90%;
+		/* background-color: red; */
+	}
+}
+
 .attribution {
 	color: white;
 	margin-top: auto;
